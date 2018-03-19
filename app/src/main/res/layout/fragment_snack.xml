@@ -4,6 +4,7 @@
     android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context="com.christophergort14.actionbarexperiment.MyActivity$PlaceholderFragment">
 
     <TextView
@@ -18,5 +19,13 @@
         app:layout_constraintTop_toTopOf="@+id/constraintLayout"
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintTop_creator="1" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/tab_snack"
+        android:orientation="horizontal"
+        app:srcCompat="@drawable/snack" />
 
 </android.support.constraint.ConstraintLayout>
