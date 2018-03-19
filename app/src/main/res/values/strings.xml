@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Actionbar Experiment</string>
+    <string name="tab_breakfast">Breakfast</string>
+    <string name="tab_lunch">Lunch</string>
+    <string name="tab_snack">Snack</string>
+    <string name="tab_dinner">Dinner</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
